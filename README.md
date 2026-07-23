@@ -16,30 +16,34 @@ Styling: Tailwind CSS
 
 # Deployment: Vercel
 
-🚀 Setup & Installation Instructions
-Follow these steps to get a local copy running on your machine:
+## 🚀 Setup & Installation
 
-# Prerequisites
-### Make sure you have Node.js (v18 or higher) installed.
+### Prerequisites
+Make sure you have **Node.js** (v18 or higher) installed.
 
-1. Clone the repository  
-Bash  
-git clone https://github.com/AldwynAligway/tevesEnterprises.git  
-cd teves-enterprise  
+### 1. Clone the repository
+```bash
+git clone https://github.com/AldwynAligway/tevesEnterprises.git
+cd tevesEnterprises
+```
 
-2. Install dependencies  
-Bash  
-npm install  
+### 2. Install dependencies
+```bash
+npm install
+```
 
-3. Configure Environment Variables  
-Create a .env.local file in the root directory and add your Sanity credentials:  
-'''Code snippet  
-NEXT_PUBLIC_SANITY_PROJECT_ID=your_sanity_project_id  
-NEXT_PUBLIC_SANITY_DATASET=production'''
+### 3. Configure Environment Variables
+Create a `.env.local` file in the root directory and add your Sanity credentials:
 
-4. Run the development server  
-Bash  
-npm run dev  
+```env
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_sanity_project_id
+NEXT_PUBLIC_SANITY_DATASET=production
+```
+
+### 4. Run the development server
+```bash
+npm run dev
+```
 
 Open http://localhost:3000 in your browser to view the application.
 
